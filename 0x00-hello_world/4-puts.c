@@ -7,7 +7,8 @@
 #include <stdio.h>
 
 /**
- * main function: The Entry point of the program.
+ * main function - The Entry point of the program.
+ * prints - \"Programming is like building a multilingual puzzle 
  */
 int main(void)
 {
