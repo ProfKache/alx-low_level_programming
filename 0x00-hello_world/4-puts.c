@@ -8,7 +8,7 @@
 
 /**
  * main function - The Entry point of the program.
- * prints - \"Programming is like building a multilingual puzzle 
+ * prints - \"Programming is like building a multilingual puzzle
  */
 int main(void)
 {
