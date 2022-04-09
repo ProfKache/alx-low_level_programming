@@ -20,7 +20,7 @@ int main(void)
 	for (ch = '0'; ch <= '9'; ch++)
 	{
 		if (ch == '9')
-			continue;
+			putchar('\b');
 		putchar(ch);
 		putchar(44);
 		putchar(' ');
