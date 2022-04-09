@@ -22,8 +22,9 @@ int main(void)
 		putchar(ch);
 		putchar(44);
 		putchar(' ');
+		if (ch == '9')
+			continue;
 	}
-	putchar(0x08);
 
 	return (0);
 }
