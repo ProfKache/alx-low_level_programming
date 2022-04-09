@@ -23,7 +23,7 @@ int main(void)
 		putchar(44);
 		putchar(' ');
 		if (ch == '9')
-			putchar('\b');
+			continue;
 	}
 
 	return (0);
