@@ -21,10 +21,12 @@ int main(void)
 	{
 		putchar(ch);
 		if (ch != '9')
+		{
 			putchar(',');
+			putchar('\n');
+		}
 		putchar(' ');
 	}
-	putchar('\n');
 
 	return (0);
 }
