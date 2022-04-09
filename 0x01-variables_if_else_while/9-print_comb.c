@@ -23,7 +23,7 @@ int main(void)
 		putchar(44);
 		putchar(' ');
 	}
-	putchar('\b');
+	putchar(0x08);
 
 	return (0);
 }
