@@ -18,8 +18,10 @@ int main(void)
 	int ch = '1';
 
 	for (ch = '0'; ch <= '9'; ch++)
+	{
 		putchar(ch);
-		putchar('\,');
+		putchar(',');
+	}
 	putchar('\b');
 
 	return (0);
