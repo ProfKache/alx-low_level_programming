@@ -1,6 +1,7 @@
 /*
  * Program: 2-print_alphabet.c
- * The Program prints the alphabets in lowercase, and then in uppercase, followed by a new line.
+ * The Program prints the alphabets in lowercase, and then in uppercase,
+ * followed by a new line.
  * Author: Salim Kachemela <sakachemela@gmail.com>
  * Copyright(c) 2022
  */
