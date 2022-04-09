@@ -16,7 +16,7 @@ int main(void)
 {
 	char number;
 
-	for (number = 0; number <= 16; number++)
+	for (number = 0; number <= 15; number++)
 		printf("%x", number);
 	putchar('\n');
 
