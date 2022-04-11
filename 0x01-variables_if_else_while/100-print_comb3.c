@@ -15,20 +15,28 @@
  */
 int main(void)
 {
-	int i;
-	int j;
+        int i;
+        int j;
 
-	for (i = '0'; i <= '9'; i++)
-	{
-		for (j = '1'; j <= '9'; j++)
-		{
-			putchar(i);
-			putchar(j);
-			putchar(',');
-			putchar(' ');
-		}
-	}
-	putchar('\n');
+        for (i = 48; i < 57; i++)
+        {
+          for (j = 49; j < 58; j++)
+          {
+              if (j > i)
+              {
+                putchar(i);
+                putchar(j);
 
-	return (0);
+                if (i != 56 || j != 57)
+                {
+
+                    putchar(',');
+                    putchar(' ');
+                }
+              }
+          }
+        }
+        putchar('\n');
+
+        return (0);
 }
