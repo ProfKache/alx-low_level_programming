@@ -12,13 +12,13 @@
  * main - The Entry point of the program.
  * Return: 0 if the program runs without errors.
  */
-int main(void)
+void print_alphabet(void)
 {
 	char alphabet = 'a';
 
 	while (alphabet <= 'z')
 	{
-		print_alphabet();
+		_putchar(alphabet);
 		alphabet++;
 	}
 	_putchar('\n');
