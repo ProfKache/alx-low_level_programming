@@ -4,7 +4,7 @@
  * Author: Salim Kachemela <sakachemela@gmail.com>
  * Copyright @2019
  */
-#include <unistd.h>
+#include <stdio.h>
 /**
  * main - The Entry point of the program.
  * Return: 0 if the program runs without errors.
