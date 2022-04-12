@@ -13,7 +13,8 @@
 int main(void)
 {
 	char text[] = "_putchar";
-	int i = 1;
+	int i = 0;
+
 	while (i <= 8)
 	{
 		_putchar(text[i]);
