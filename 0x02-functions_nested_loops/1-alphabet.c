@@ -5,7 +5,6 @@
  * Author: Salim Kachemela <sakachemela@gmail.com>
  * Copyright @2022
  */
-#include <stdio.h>
 #include "main.h"
 
 /**
@@ -22,5 +21,4 @@ void print_alphabet(void)
 		alphabet++;
 	}
 	_putchar('\n');
-	return (0);
 }
