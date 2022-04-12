@@ -8,8 +8,7 @@
 #include "main.h"
 
 /**
- * main - The Entry point of the program.
- * Return: 0 if the program runs without errors.
+ * print_alphabet - print the alphabet.
  */
 void print_alphabet(void)
 {
