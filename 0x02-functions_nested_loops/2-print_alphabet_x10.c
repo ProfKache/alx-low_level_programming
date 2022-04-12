@@ -1,14 +1,14 @@
 /*
  * Program: 1-alphabet.c
- * A function that prints 10 times the alphabet, in lowercase, followed by a new line.
- * with a function.
+ * A function that prints 10 times the alphabet, in lowercase,
+ * followed by a new line. with a function.
  * Author: Salim Kachemela <sakachemela@gmail.com>
  * Copyright @2022
  */
 #include "main.h"
 
 /**
- * print_alphabet - print the alphabet.
+ * print_alphabet_x10 - print the alphabet 10 times.
  */
 void print_alphabet_x10(void)
 {
@@ -22,8 +22,8 @@ void print_alphabet_x10(void)
 			_putchar(alphabet);
 			alphabet++;
 		}
+		counter++;
+		alphabet = 'a';
+		_putchar('\n');
 	}
-	counter++;
-	alphabet = 'a';
-	_putchar('\n');
 }
