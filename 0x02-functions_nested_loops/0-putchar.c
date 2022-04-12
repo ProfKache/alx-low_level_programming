@@ -5,6 +5,7 @@
  * Copyright @2019
  */
 #include <stdio.h>
+#include "main.h"
 /**
  * main - The Entry point of the program.
  * Return: 0 if the program runs without errors.
@@ -12,6 +13,12 @@
 int main(void)
 {
 	char text[] = "_putchar";
-	printf("%s\n", text);
+	int i = 1;
+	while (i <= 8)
+	{
+		_putchar(text[i]);
+		i++;
+	}
+	_putchar('\n');
 	return (0);
 }
