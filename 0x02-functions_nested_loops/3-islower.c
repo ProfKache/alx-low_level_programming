@@ -11,18 +11,13 @@
  */
 int _islower(int c)
 {
-	char alphabet = 'a';
 
-	while (alphabet <= 'z')
+	if (c >= 97 && c <= 122)
 	{
-		alphabet++;
-		if (alphabet == c)
-		{
-			return (1);
-		}
-		else
-		{
-			return (0);
-		}
+		return (1);
+	}
+	else
+	{
+		return (0);
 	}
 }
