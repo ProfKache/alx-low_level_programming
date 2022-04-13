@@ -15,6 +15,7 @@ int _islower(int c)
 
 	while (alphabet <= 'z')
 	{
+		alphabet++;
 		if (alphabet == c)
 		{
 			return (1);
@@ -23,6 +24,5 @@ int _islower(int c)
 		{
 			return (0);
 		}
-		alphabet++;
 	}
 }
