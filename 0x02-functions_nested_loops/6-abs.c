@@ -9,7 +9,7 @@
 /**
  * _abs - computes the absolute value of an integer
  *
- * @int: The parameter to be evaluated with.
+ * @n: The parameter to be evaluated with.
  *
  * Return: the absolute value of an integer;
  */
