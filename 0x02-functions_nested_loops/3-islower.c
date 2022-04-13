@@ -8,7 +8,7 @@
 
 /**
  * _islower - checks for lowercase characters.
- * 
+ *
  * @c: The parameter to be evaluated with.
  *
  * Return: 1 if c is lowercase, 0 otherwise.
