@@ -18,11 +18,11 @@
 void jack_bauer(void)
 {
 	int i;
-	time_t t;
+	time_t current_time;
 
-	t = time(NULL);
+	current_time = time(0);
 	struct tm tm;
-	tm = *localtime(&t);
+	tm = *localtime(&current_time);
 	for (i = 0; i < 24; i++)
 	{
 		_putchar(tm.tm_hour);
