@@ -1,13 +1,13 @@
 /*
  * Program: 9-times_table.c
- * A function that prints the 9 times table, starting with 0. 
+ * A function that prints the 9 times table, starting with 0.
  * Author: Salim Kachemela <sakachemela@gmail.com>
  * Copyright @2022
  */
 #include "main.h"
 
 /**
- * times_table - prints the 9 times table, starting with 0. 
+ * times_table - prints the 9 times table, starting with 0.
  *
  * @void: Does return anything.
  *
