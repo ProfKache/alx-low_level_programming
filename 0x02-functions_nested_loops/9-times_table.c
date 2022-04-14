@@ -29,17 +29,18 @@ void times_table(void)
 			first_digit = result / 10;
 			last_digit = result % 10;
 
-			if (first_digit > 0)
+			if (result >= 0 && result <= 9)
 			{
-				_putchar(first_digit + '0');
-				_putchar(last_digit + '0');
-				_putchar(',');
+				_putchar(result + '0');
+				_putchar(' ');
 				_putchar(' ');
 			}
-			if (first_digit == 0)
+			else if (result >= 10 && result <=99)
 			{
-				_putchar(last_digit + '0');
+
+				_putchar(result + '0');
 				_putchar(',');
+				_putchar(' ');
 			}
 		}
 		_putchar('\n');
