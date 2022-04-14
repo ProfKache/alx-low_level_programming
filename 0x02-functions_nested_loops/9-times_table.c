@@ -26,22 +26,20 @@ void times_table(void)
 		for (columns = 0; columns < 10; columns++)
 		{
 			result = rows * columns;
-			first_digit = result / 10;
 			last_digit = result % 10;
+			first_digit = (result - last_digit) / 10;
 
-			if (result >= 0 && result <= 9)
+			if (columns > 0)
 			{
-				_putchar(first_digit + '0');
-				_putchar(',');
 				_putchar(' ');
-				_putchar(' ');
+				if (first_digit <= 0)
+					_putchar(' ');
+				else
+					_putchar(first_digit + '0');
 			}
-			if (result >= 10 && result <= 99 && columns != 9)
+			if (columns < 9)
 			{
-				_putchar(first_digit + '0');
-				_putchar(last_digit + '0');
 				_putchar(',');
-				_putchar(' ');
 			}
 		}
 		_putchar('\n');
