@@ -28,8 +28,16 @@ void times_table(void)
 			result = rows * columns;
 			first_digit = result / 10;
 			last_digit = result % 10;
-			_putchar(first_digit + '0');
-			_putchar(last_digit + '0');
+
+			if (first_digit > 0)
+			{
+				_putchar(first_digit + '0');
+				_putchar(last_digit + '0');
+			}
+			if (first_digit == 0)
+			{
+				_putchar(last_digit + '0');
+			}
 			if (columns != 9)
 			{
 				_putchar(',');
