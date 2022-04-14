@@ -41,7 +41,6 @@ void times_table(void)
 			if (columns != 9)
 			{
 				_putchar(',');
-				_putchar(' ');
 			}
 		}
 		_putchar('\n');
