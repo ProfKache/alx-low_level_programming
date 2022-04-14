@@ -37,6 +37,7 @@ void times_table(void)
 			if (first_digit == 0)
 			{
 				_putchar(last_digit + '0');
+				_putchar(' ');
 			}
 			if (columns != 9)
 			{
