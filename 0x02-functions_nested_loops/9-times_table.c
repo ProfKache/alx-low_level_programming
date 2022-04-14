@@ -18,16 +18,12 @@ void times_table(void)
 	int rows;
 	int columns;
 	int result = 0;
-	int first_digit;
-	int last_digit;
 
 	for (rows = 0; rows < 10; rows++)
 	{
 		for (columns = 0; columns < 10; columns++)
 		{
 			result = rows * columns;
-			first_digit = result / 10;
-			last_digit = result % 10;
 
 			if (result >= 0 && result <= 9)
 			{
