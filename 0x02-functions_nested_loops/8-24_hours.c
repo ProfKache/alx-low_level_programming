@@ -5,7 +5,6 @@
  * Author: Salim Kachemela <sakachemela@gmail.com>
  * Copyright @2022
  */
-#include<time.h>
 #include "main.h"
 
 /**
@@ -17,18 +16,29 @@
  */
 void jack_bauer(void)
 {
-	int i;
-	time_t current_time;
+	int hours;
+	int hour_digit1;
+	int hour_digit2;
+	int minutes;
+	int minute_digit1;
+	int minute_digit2;
+	
 
-	current_time = time(0);
-	struct tm tm;
-	tm = *localtime(&current_time);
-	for (i = 0; i < 24; i++)
+	for (hours = 0; hours < 24; hours++)
 	{
-		_putchar(tm.tm_hour);
-		_putchar(':');
-		_putchar(tm.tm_min);
-	}
-		
+		hour_digit1 = hours / 10;
+		hour_digit2 = hours % 10;
+		for (minutes = 0; minutes < 60; minutes++)
+		{
+			minute_digit1 = minutes / 10;
+			minute_digit2 = minutes % 10;
 
+			_putchar(hour_digit1);
+			_putchar(hour_digit2);
+			_putchar(':');
+			_putchar(minute_digit1);
+			_putchar(minute_digit2);
+			_putchar('\n');
+		}
+	}
 }
