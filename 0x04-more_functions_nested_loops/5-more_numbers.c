@@ -1,13 +1,16 @@
 /*
  * Program: 5-more_numbers.c
- * A function that prints 10 times the numbers, from 0 to 14, followed by a new line.
+ * A function that prints 10 times the numbers, from 0 to 14,
+ * followed by a new line.
  * Author: Salim Kachemela ``<sakachemela@gmail.com>
  * Copyright @2022
  */
 #include "main.h"
 
 /**
- * more_numbers - prints 10 times the numbers, from 0 to 14, followed by a new line.
+ * more_numbers - prints 10 times the numbers, from 0 to 14
+ *
+ * Return: void
  */
 void more_numbers(void)
 {
