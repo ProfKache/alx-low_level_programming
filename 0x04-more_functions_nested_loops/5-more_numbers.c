@@ -32,8 +32,8 @@ void more_numbers(void)
 			}
 			_putchar(n2 + '0');
 		}
+		_putchar('\n');
 	}
 
-	_putchar('\n');
 }
 
