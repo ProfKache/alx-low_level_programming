@@ -22,16 +22,17 @@ void more_numbers(void)
 		{
 			if (n < 10)
 			{
-				_putchar(n + '0');
+				n2 = n;
 			}
 			else
 			{
 				n1 = n / 10;
 				n2 = n % 10;
 				_putchar(n1 + '0');
-				_putchar(n2 + '0');
 			}
+			_putchar(n2 + '0');
 		}
+		n = 0;
 	}
 
 	_putchar('\n');
