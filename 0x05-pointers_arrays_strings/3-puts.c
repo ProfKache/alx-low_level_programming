@@ -6,7 +6,6 @@
  */
 #include "main.h"
 #include <string.h>
-#include <stdio.h>
 /**
  * _puts - function that prints a string.
  *
@@ -21,8 +20,8 @@ void _puts(char *str)
 
 	for (s = 0; s < l; s++)
 	{
-		putchar(str[s]);
+		_putchar(str[s]);
 	}
 
-	putchar('\n');
+	_putchar('\n');
 }
