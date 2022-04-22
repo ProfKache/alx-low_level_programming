@@ -5,6 +5,7 @@
  * Copyright @2022
  */
 #include "main.h"
+#include <string.h>
 /**
  * _puts - function that prints a string.
  *
@@ -16,9 +17,10 @@ void _puts(char *str)
 {
 	int s;
 
-	for (s = 0; s < str['\0']; s++)
+	for (s = 0; s < strlen(str); s++)
 	{
-		_putchar(str[s]);
+		if (str[s] != '\0')
+			_putchar(str[s]);
 	}
 	_putchar('\n');
 }
