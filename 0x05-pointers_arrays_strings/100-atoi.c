@@ -22,11 +22,12 @@ int _atoi(char *s)
 
 	for (i = 0; i < length; i++)
 	{
-		if (!isdigit(s[i]) && s[0] != '-')
+		if (!isdigit(s[i]))
 		{
 			return (0);
 		}
 	}
+
 
 	return ((int)*s);
 }
