@@ -10,11 +10,11 @@
 /**
  * _strcpy - function that copies the string
  *
- * @: the pointer parameter
+ * @dest: the pointer parameter for destination string
  *
- * @n: the number of elements in the array.
+ * @src: the pointer parameter for source string
  *
- * Return: void
+ * Return: a pointer string.
  */
 char *_strcpy(char *dest, char *src)
 {
