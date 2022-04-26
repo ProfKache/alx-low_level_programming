@@ -16,22 +16,20 @@
 void rev_string(char *s)
 {
 	char temp;
-	char *c = s;
-	int n, counter = 0;
+	int len = 0;
+	int i = 0;
+	int j;
 
-	while (*s != '\0')
+	while (s[len] != '\0')
+		len++;
+	j = len - 1;
+	len = len / 2;
+	while (len--)
 	{
-		counter++;
-		s = s + 1;
-	}
-
-	s = c;
-
-	for (n = 0; n <= (counter / 2); n++)
-	{
-		temp = s[n];
-		s[n] = s[counter - 1];
-		s[counter - 1] = temp;
-		counter = counter - 1;
+		temp = s[i];
+		s[i] = s[j];
+		s[j] = temp;
+		i++;
+		j--;
 	}
 }
