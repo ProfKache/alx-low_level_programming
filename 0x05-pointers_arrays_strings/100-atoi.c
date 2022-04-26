@@ -19,6 +19,7 @@ int _atoi(char *s)
 {
 	int i;
 	int length = strlen(s);
+
 	for (i = 0; i < length; i++)
 	{
 		if (!isdigit(s[i]) && s[0] != '-')
