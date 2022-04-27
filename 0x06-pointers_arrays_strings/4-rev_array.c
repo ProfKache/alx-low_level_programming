@@ -9,9 +9,9 @@
  * array_reverse - function that reverses the content of an array of integers.
  * @a: the pointer parameter for the array
  * @n: the number of elements in the array.
- * Return: a reversed array.
+ * Return: void
  */
-void array_reverse(int *a, int n)
+void reverse_array(int *a, int n)
 {
 	int x, y, temp;
 
