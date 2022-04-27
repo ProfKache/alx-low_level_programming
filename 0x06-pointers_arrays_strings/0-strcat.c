@@ -6,7 +6,7 @@
  */
 #include "main.h"
 /**
- * _strcpy - function that concatentates strings.
+ * _strcat - function that concatentates strings.
  *
  * @dest: the pointer parameter for destination string
  *
