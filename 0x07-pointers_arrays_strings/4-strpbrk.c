@@ -8,7 +8,7 @@
 /**
  * _strpbrk - function that locates a character in a string.
  * @s: the pointer string.
- * @c: the character occured.
+ * @accept: the character occured.
  * Return: a character found in a string.
  */
 char *_strpbrk(char *s, char *accept)
