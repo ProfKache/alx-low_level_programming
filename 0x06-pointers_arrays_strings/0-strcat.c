@@ -6,7 +6,6 @@
  * Copyright @2022
  */
 #include "main.h"
-#include <string.h>
 /**
  * _strcpy - function that copies the string
  *
@@ -18,11 +17,13 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int x;
-	int y;
+	int x = 0;
+	int y = 0;
 
 	while (dest[x])
+	{
 		x++;
+	}
 	while (src[y])
 	{
 		dest[x] = src[y];
