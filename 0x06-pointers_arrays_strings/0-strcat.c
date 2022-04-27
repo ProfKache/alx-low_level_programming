@@ -18,5 +18,17 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	return (strcat(dest, src));
+	int x;
+	int y;
+
+	while (dest[x])
+		x++;
+	while (src[y])
+	{
+		dest[x] = src[y];
+		x++;
+		y++;
+	}
+
+	return (dest);
 }
