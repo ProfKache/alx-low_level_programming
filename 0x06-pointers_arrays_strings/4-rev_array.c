@@ -6,7 +6,7 @@
  */
 #include "main.h"
 /**
- * array_reverse - function that reverses the content of an array of integers.
+ * reverse_array - function that reverses the content of an array of integers.
  * @a: the pointer parameter for the array
  * @n: the number of elements in the array.
  * Return: void
