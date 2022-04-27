@@ -12,7 +12,18 @@
  * @s2: the pointer parameter for second string
  * Return: a pointer string.
  */
-int _strcmp(char *s2, char *s1)
+int _strcmp(char *s1, char *s2)
 {
-	return (strcmp(s1, s1));
+	char *str1, *str2;
+
+	*str1 = *s1;
+	*str2 = *s2;
+
+	while (*str1 != '\0' && *str1 == *str2)
+	{
+		str1++;
+		str2++;
+	}
+
+	return (*str1 - *str2);
 }
