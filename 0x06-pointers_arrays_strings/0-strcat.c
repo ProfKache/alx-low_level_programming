@@ -1,13 +1,12 @@
 /*
- * Program: 9-strcpy.c
- * A function that copies the string pointed to by src, including the
- * terminating null byte (\0), to the buffer pointed to by dest.
+ * Program: 0-strat.c
+ * A function that concatentates strings
  * Author: Salim Kachemela <sakachemela@gmail.com>
  * Copyright @2022
  */
 #include "main.h"
 /**
- * _strcpy - function that copies the string
+ * _strcpy - function that concatentates strings.
  *
  * @dest: the pointer parameter for destination string
  *
@@ -17,19 +16,22 @@
  */
 char *_strcpy(char *dest, char *src)
 {
-	int x = 0;
-	int y = 0;
+	int x;
+	int y;
 
-	while (dest[x])
+	x = 0;
+	y = 0;
+
+	while (dest[x] != '\0')
 	{
 		x++;
 	}
-	while (src[y])
+	while (src[y] != '\0')
 	{
 		dest[x] = src[y];
 		x++;
 		y++;
 	}
-
+	dest[x] = '\0';
 	return (dest);
 }
