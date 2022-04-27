@@ -6,7 +6,7 @@
  */
 #include "main.h"
 /**
- * _strchr - function that locates a character in a string.
+ * _strpbrk - function that locates a character in a string.
  * @s: the pointer string.
  * @c: the character occured.
  * Return: a character found in a string.
