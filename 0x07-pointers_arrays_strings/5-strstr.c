@@ -6,7 +6,7 @@
  */
 #include "main.h"
 /**
- * strstr - function that locates a substring
+ * _strstr - function that locates a substring
  * @haystack: the pointer string.
  * @needle: the character occured.
  * Return: a substring.
