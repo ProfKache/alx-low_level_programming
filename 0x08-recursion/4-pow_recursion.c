@@ -2,13 +2,15 @@
 
 /**
  * _pow_recursion - A function that returns factorial of a number.
- * @n: An integer to be returned as factorial
- * Return: void
+ * @x: An integer to be powered
+ * @y: A power.
+ * Return: the powered number
  */
 int _pow_recursion(int x, int y)
 {
 	if (y < 0)
 		return (-1);
-	y--;
-	return (x * _pow_recursion(x, y));
+	if (y == 0)
+		return (1);
+	return (x * _pow_recursion(x, y - 1));
 }
