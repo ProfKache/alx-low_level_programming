@@ -9,11 +9,12 @@
 /**
  * string_reverse - A function for reversint the array string
  * @n: A character pointer parameter.
- * Return: 0
+ * Return: void
  */
 void string_reverse(char *n)
 {
-	int i = 0, k = 0;
+	int i = 0;
+	int k = 0;
 	char tmp;
 
 	while (*(n + i) != '\0')
@@ -52,7 +53,7 @@ char *infinite_add(char *n1, char *n2, char *r, int size_r)
 	k--;
 	if (k >= size_r || i >= size_r)
 		return (0);
-	while (k >= 0 || k >= 0 || overflow == 1)
+	while (k >= 0 || i >= 0 || overflow == 1)
 	{
 		if (i < 0)
 			value1 = 0;
