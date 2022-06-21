@@ -1,5 +1,5 @@
-#ifndef HEADER_FILE
-#define HEADER_FILE
+#ifndef LIST_FILE
+#define LIST_FILE
 
 #include <stdio.h>
 #include <stdlib.h>
