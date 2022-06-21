@@ -1,6 +1,7 @@
 #include "lists.h"
 /**
- * add_node_end - function that adds a new_node node at the end of a list_t list.
+ * add_node_end - function that adds a new_node node at the end of a
+ * list_t list.
  * @head: Parameter that point to de head of the
  * linked list
  * @str: Parameter with the string
