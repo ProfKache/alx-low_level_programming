@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * myCleanupFun - function that prints somthing before
+ * display_text - function that prints somthing before
  * the main function is executed.
  */
 void display_text(void) __attribute__ ((constructor));
